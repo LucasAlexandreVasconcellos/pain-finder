@@ -1,0 +1,299 @@
+{
+  "script_id": "script_1230_general_knowledge_01",
+  "slot": "12:30",
+  "theme": "Conhecimentos Gerais do Cotidiano & Marcas Mundiais",
+  "target_duration_seconds": 72.0,
+  "voice_config": {
+    "voice_name": "pt-BR-AntonioNeural",
+    "rate": "+5%",
+    "pitch": "+0Hz"
+  },
+  "hook": {
+    "hook_text": "Seu cérebro é acima da média ou você erra coisas simples? Cuidado com a pergunta número 5, quase todo mundo cai!",
+    "subtitles_highlight": "⚠️ 98% ERRAM A #5! VOCÊ ACERTA?",
+    "duration_seconds": 4.0,
+    "sfx": "sfx_whoosh_impact"
+  },
+  "questions": [
+    {
+      "index": 1,
+      "level": "facil",
+      "level_badge": "🟢 NÍVEL FÁCIL",
+      "question_text": "Qual país é o berço e criador da pizza moderna?",
+      "options": [
+        {
+          "id": "A",
+          "text": "França"
+        },
+        {
+          "id": "B",
+          "text": "Itália"
+        },
+        {
+          "id": "C",
+          "text": "Grécia"
+        },
+        {
+          "id": "D",
+          "text": "Espanha"
+        }
+      ],
+      "correct_option": "B",
+      "correct_index": 1,
+      "explanation": "A pizza moderna com molho e queijo nasceu em Nápoles, na Itália!",
+      "is_trap": false,
+      "countdown_seconds": 3.0,
+      "audio_cues": {
+        "intro": null,
+        "countdown": "sfx_tick_tack_3s",
+        "reveal": "sfx_correct_ding"
+      }
+    },
+    {
+      "index": 2,
+      "level": "facil",
+      "level_badge": "🟢 NÍVEL FÁCIL",
+      "question_text": "Qual empresa multinacional criou o smartphone iPhone?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Microsoft"
+        },
+        {
+          "id": "B",
+          "text": "Samsung"
+        },
+        {
+          "id": "C",
+          "text": "Apple"
+        },
+        {
+          "id": "D",
+          "text": "Google"
+        }
+      ],
+      "correct_option": "C",
+      "correct_index": 2,
+      "explanation": "O primeiro iPhone foi apresentado por Steve Jobs na Apple em 2007!",
+      "is_trap": false,
+      "countdown_seconds": 3.0,
+      "audio_cues": {
+        "intro": null,
+        "countdown": "sfx_tick_tack_3s",
+        "reveal": "sfx_correct_ding"
+      }
+    },
+    {
+      "index": 3,
+      "level": "medio",
+      "level_badge": "🟡 NÍVEL MÉDIO",
+      "question_text": "Qual é a moeda oficial utilizada no Japão?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Yuan"
+        },
+        {
+          "id": "B",
+          "text": "Won"
+        },
+        {
+          "id": "C",
+          "text": "Iene"
+        },
+        {
+          "id": "D",
+          "text": "Dólar"
+        }
+      ],
+      "correct_option": "C",
+      "correct_index": 2,
+      "explanation": "O Iene é a moeda oficial do Japão e a 3ª mais negociada do mundo!",
+      "is_trap": false,
+      "countdown_seconds": 3.0,
+      "audio_cues": {
+        "intro": null,
+        "countdown": "sfx_tick_tack_3s",
+        "reveal": "sfx_correct_ding"
+      }
+    },
+    {
+      "index": 4,
+      "level": "medio",
+      "level_badge": "🟡 NÍVEL MÉDIO",
+      "question_text": "Em que ano o ser humano pisou na Lua pela primeira vez?",
+      "options": [
+        {
+          "id": "A",
+          "text": "1959"
+        },
+        {
+          "id": "B",
+          "text": "1969"
+        },
+        {
+          "id": "C",
+          "text": "1975"
+        },
+        {
+          "id": "D",
+          "text": "1982"
+        }
+      ],
+      "correct_option": "B",
+      "correct_index": 1,
+      "explanation": "Neil Armstrong e Buzz Aldrin pisaram na Lua em 20 de julho de 1969!",
+      "is_trap": false,
+      "countdown_seconds": 3.0,
+      "audio_cues": {
+        "intro": null,
+        "countdown": "sfx_tick_tack_3s",
+        "reveal": "sfx_correct_ding"
+      }
+    },
+    {
+      "index": 5,
+      "level": "dificil",
+      "level_badge": "🔴 NÍVEL DIFÍCIL - PEGADINHA",
+      "question_text": "Quantos meses do ano têm 28 dias?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Apenas 1"
+        },
+        {
+          "id": "B",
+          "text": "2 meses"
+        },
+        {
+          "id": "C",
+          "text": "6 meses"
+        },
+        {
+          "id": "D",
+          "text": "Todos os 12"
+        }
+      ],
+      "correct_option": "D",
+      "correct_index": 3,
+      "explanation": "Pegadinha! Fevereiro tem 28 dias, mas todos os outros 11 meses também passam pelo 28º dia!",
+      "is_trap": true,
+      "countdown_seconds": 3.0,
+      "audio_cues": {
+        "intro": "sfx_warning_siren",
+        "countdown": "sfx_tick_tack_3s",
+        "reveal": "sfx_correct_ding"
+      }
+    },
+    {
+      "index": 6,
+      "level": "dificil",
+      "level_badge": "🔴 NÍVEL DIFÍCIL",
+      "question_text": "Qual é a empresa mais antiga do mundo ainda em atividade contínua?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Nintendo"
+        },
+        {
+          "id": "B",
+          "text": "Kongo Gumi"
+        },
+        {
+          "id": "C",
+          "text": "Beretta"
+        },
+        {
+          "id": "D",
+          "text": "Twinings"
+        }
+      ],
+      "correct_option": "B",
+      "correct_index": 1,
+      "explanation": "A Kongo Gumi foi fundada no Japão em 578 d.C. e constrói templos há mais de 1.400 anos!",
+      "is_trap": false,
+      "countdown_seconds": 3.0,
+      "audio_cues": {
+        "intro": null,
+        "countdown": "sfx_tick_tack_3s",
+        "reveal": "sfx_correct_ding"
+      }
+    },
+    {
+      "index": 7,
+      "level": "impossivel",
+      "level_badge": "💀 NÍVEL IMPOSSÍVEL",
+      "question_text": "Qual país do planeta possui o maior número de ilhas em seu território?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Indonésia"
+        },
+        {
+          "id": "B",
+          "text": "Filipinas"
+        },
+        {
+          "id": "C",
+          "text": "Suécia"
+        },
+        {
+          "id": "D",
+          "text": "Canadá"
+        }
+      ],
+      "correct_option": "C",
+      "correct_index": 2,
+      "explanation": "A Suécia lidera o mundo com mais de 267 mil ilhas registradas!",
+      "is_trap": false,
+      "countdown_seconds": 3.0,
+      "audio_cues": {
+        "intro": null,
+        "countdown": "sfx_tick_tack_3s",
+        "reveal": "sfx_correct_ding"
+      }
+    }
+  ],
+  "micro_curiosity": {
+    "insert_after_question": 3,
+    "title": "💡 CURIOSIDADE RELÂMPAGO",
+    "text": "Você sabia? A Apple começou na garagem de Steve Jobs e hoje tem mais dinheiro em caixa do que muitos países ricos!",
+    "duration_seconds": 4.0,
+    "sfx": "sfx_curiosity_bell"
+  },
+  "score_cta": {
+    "text": "Quantas você acertou de verdade? Deixe seu placar nos comentários!",
+    "duration_seconds": 3.0
+  },
+  "bonus_question": {
+    "index": 8,
+    "badge_label": "🔥 PERGUNTA BÔNUS",
+    "question_text": "Quem foi o primeiro bilionário em dólares registrado na história da humanidade? Quem acertar ganha comentário fixado!",
+    "options": [
+      "A) Henry Ford",
+      "B) John D. Rockefeller",
+      "C) Andrew Carnegie",
+      "D) J.P. Morgan"
+    ],
+    "correct_answer_secret": "John D. Rockefeller (fundador da Standard Oil, atingiu a marca em 1916)",
+    "reveal_in_video": false,
+    "duration_seconds": 6.0,
+    "pinned_comment": "🏆 DESAFIO BÔNUS: O primeiro bilionário em dólares da história foi John D. Rockefeller (Standard Oil) em 1916! Quem acertou essa?"
+  },
+  "seo": {
+    "title": "Desafio dos 7 Níveis: 98% Erram a Pergunta 5! Quantas Você Acerta?",
+    "caption": "Você consegue acertar todas as 7 perguntas de conhecimentos gerais? Preste muita atenção na pegadinha da número 5! 🧠👇 Deixe seu placar nos comentários e tente responder a pergunta bônus!",
+    "hashtags": [
+      "#quiz",
+      "#curiosidades",
+      "#conhecimento",
+      "#quizdark",
+      "#desafio",
+      "#fatosdesconhecidos",
+      "#bussinessmasterbr",
+      "#quizbrasil",
+      "#aprendanotiktok"
+    ],
+    "cover_headline": "98% ERRAM A #5! VOCÊ ACERTA?"
+  }
+}

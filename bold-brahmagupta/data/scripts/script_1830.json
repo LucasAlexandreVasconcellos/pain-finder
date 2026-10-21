@@ -1,0 +1,299 @@
+{
+  "script_id": "script_1830_iq_impossible_03",
+  "slot": "18:30",
+  "theme": "Desafio Supremo de QI & Enigmas da Mente",
+  "target_duration_seconds": 72.0,
+  "voice_config": {
+    "voice_name": "pt-BR-AntonioNeural",
+    "rate": "+5%",
+    "pitch": "+0Hz"
+  },
+  "hook": {
+    "hook_text": "Teste de QI para mentes rápidas: Apenas 1% das pessoas gabaritam esse quiz. E a pergunta 5 vai bugar seu cérebro!",
+    "subtitles_highlight": "🧠 DESAFIO DE QI: SÓ 1% GABARITA (CUIDADO COM A #5)",
+    "duration_seconds": 4.0,
+    "sfx": "sfx_whoosh_impact"
+  },
+  "questions": [
+    {
+      "index": 1,
+      "level": "facil",
+      "level_badge": "🟢 NÍVEL FÁCIL",
+      "question_text": "Qual é o maior e mais profundo oceano do planeta Terra?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Atlântico"
+        },
+        {
+          "id": "B",
+          "text": "Índico"
+        },
+        {
+          "id": "C",
+          "text": "Pacífico"
+        },
+        {
+          "id": "D",
+          "text": "Ártico"
+        }
+      ],
+      "correct_option": "C",
+      "correct_index": 2,
+      "explanation": "O Oceano Pacífico cobre mais de um terço de toda a superfície da Terra!",
+      "is_trap": false,
+      "countdown_seconds": 3.0,
+      "audio_cues": {
+        "intro": null,
+        "countdown": "sfx_tick_tack_3s",
+        "reveal": "sfx_correct_ding"
+      }
+    },
+    {
+      "index": 2,
+      "level": "facil",
+      "level_badge": "🟢 NÍVEL FÁCIL",
+      "question_text": "Qual é o metal prateado e líquido à temperatura ambiente usado em termômetros?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Chumbo"
+        },
+        {
+          "id": "B",
+          "text": "Mercúrio"
+        },
+        {
+          "id": "C",
+          "text": "Prata"
+        },
+        {
+          "id": "D",
+          "text": "Alumínio"
+        }
+      ],
+      "correct_option": "B",
+      "correct_index": 1,
+      "explanation": "O mercúrio é o único metal elementar que permanece líquido à temperatura ambiente!",
+      "is_trap": false,
+      "countdown_seconds": 3.0,
+      "audio_cues": {
+        "intro": null,
+        "countdown": "sfx_tick_tack_3s",
+        "reveal": "sfx_correct_ding"
+      }
+    },
+    {
+      "index": 3,
+      "level": "medio",
+      "level_badge": "🟡 NÍVEL MÉDIO",
+      "question_text": "Na geometria clássica, quantos lados tem a figura de um heptágono?",
+      "options": [
+        {
+          "id": "A",
+          "text": "6 lados"
+        },
+        {
+          "id": "B",
+          "text": "7 lados"
+        },
+        {
+          "id": "C",
+          "text": "8 lados"
+        },
+        {
+          "id": "D",
+          "text": "9 lados"
+        }
+      ],
+      "correct_option": "B",
+      "correct_index": 1,
+      "explanation": "O heptágono é um polígono de exatamente 7 lados e 7 vértices!",
+      "is_trap": false,
+      "countdown_seconds": 3.0,
+      "audio_cues": {
+        "intro": null,
+        "countdown": "sfx_tick_tack_3s",
+        "reveal": "sfx_correct_ding"
+      }
+    },
+    {
+      "index": 4,
+      "level": "medio",
+      "level_badge": "🟡 NÍVEL MÉDIO",
+      "question_text": "Qual é o gás mais abundante presente na atmosfera da Terra?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Oxigênio"
+        },
+        {
+          "id": "B",
+          "text": "Nitrogênio"
+        },
+        {
+          "id": "C",
+          "text": "Dióxido de Carbono"
+        },
+        {
+          "id": "D",
+          "text": "Hélio"
+        }
+      ],
+      "correct_option": "B",
+      "correct_index": 1,
+      "explanation": "O nitrogênio compõe cerca de 78% do ar que respiramos!",
+      "is_trap": false,
+      "countdown_seconds": 3.0,
+      "audio_cues": {
+        "intro": null,
+        "countdown": "sfx_tick_tack_3s",
+        "reveal": "sfx_correct_ding"
+      }
+    },
+    {
+      "index": 5,
+      "level": "dificil",
+      "level_badge": "🔴 NÍVEL DIFÍCIL - PEGADINHA",
+      "question_text": "Um médico receita 3 pílulas e manda tomar uma a cada 30 minutos. Em quantos minutos você toma todas?",
+      "options": [
+        {
+          "id": "A",
+          "text": "90 minutos"
+        },
+        {
+          "id": "B",
+          "text": "60 minutos"
+        },
+        {
+          "id": "C",
+          "text": "45 minutos"
+        },
+        {
+          "id": "D",
+          "text": "120 minutos"
+        }
+      ],
+      "correct_option": "B",
+      "correct_index": 1,
+      "explanation": "Pegadinha clássica! Você toma a 1ª no minuto 0, a 2ª no minuto 30 e a 3ª no minuto 60!",
+      "is_trap": true,
+      "countdown_seconds": 3.0,
+      "audio_cues": {
+        "intro": "sfx_warning_siren",
+        "countdown": "sfx_tick_tack_3s",
+        "reveal": "sfx_correct_ding"
+      }
+    },
+    {
+      "index": 6,
+      "level": "dificil",
+      "level_badge": "🔴 NÍVEL DIFÍCIL",
+      "question_text": "Qual nação do mundo abrange o maior número de fusos horários oficiais em suas terras e territórios?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Rússia"
+        },
+        {
+          "id": "B",
+          "text": "Estados Unidos"
+        },
+        {
+          "id": "C",
+          "text": "França"
+        },
+        {
+          "id": "D",
+          "text": "China"
+        }
+      ],
+      "correct_option": "C",
+      "correct_index": 2,
+      "explanation": "A França tem 12 fusos horários diferentes por causa de suas ilhas e territórios ultramarinos!",
+      "is_trap": false,
+      "countdown_seconds": 3.0,
+      "audio_cues": {
+        "intro": null,
+        "countdown": "sfx_tick_tack_3s",
+        "reveal": "sfx_correct_ding"
+      }
+    },
+    {
+      "index": 7,
+      "level": "impossivel",
+      "level_badge": "💀 NÍVEL IMPOSSÍVEL",
+      "question_text": "Qual é o único osso do corpo humano que não se articula diretamente com nenhum outro osso?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Estribo"
+        },
+        {
+          "id": "B",
+          "text": "Hioide"
+        },
+        {
+          "id": "C",
+          "text": "Cóccix"
+        },
+        {
+          "id": "D",
+          "text": "Clavícula"
+        }
+      ],
+      "correct_option": "B",
+      "correct_index": 1,
+      "explanation": "O osso hioide fica na base da língua sustentado apenas por músculos e ligamentos!",
+      "is_trap": false,
+      "countdown_seconds": 3.0,
+      "audio_cues": {
+        "intro": null,
+        "countdown": "sfx_tick_tack_3s",
+        "reveal": "sfx_correct_ding"
+      }
+    }
+  ],
+  "micro_curiosity": {
+    "insert_after_question": 3,
+    "title": "💡 CURIOSIDADE RELÂMPAGO",
+    "text": "Você sabia? Potes de mel puro encontrados em tumbas de faraós egípcios de 3 mil anos continuam perfeitamente comestíveis!",
+    "duration_seconds": 4.0,
+    "sfx": "sfx_curiosity_bell"
+  },
+  "score_cta": {
+    "text": "Seu QI passou no teste? Deixe seu placar registrado nos comentários!",
+    "duration_seconds": 3.0
+  },
+  "bonus_question": {
+    "index": 8,
+    "badge_label": "🔥 PERGUNTA BÔNUS",
+    "question_text": "Numa corrida de rua, se você ultrapassa o corredor que está em segundo lugar, em qual posição você fica? Comente agora sem errar!",
+    "options": [
+      "A) Primeiro lugar",
+      "B) Segundo lugar",
+      "C) Terceiro lugar",
+      "D) Depende do tempo"
+    ],
+    "correct_answer_secret": "Segundo lugar! Ao ultrapassar o segundo colocado, você assume a posição dele.",
+    "reveal_in_video": false,
+    "duration_seconds": 6.0,
+    "pinned_comment": "🏆 DESAFIO BÔNUS: Fica em SEGUNDO LUGAR! Você assumiu o lugar de quem era o segundo colocado! Quem caiu no impulso e respondeu primeiro?"
+  },
+  "seo": {
+    "title": "Desafio de QI Nível Máximo: Só 1% Acerta as 7 Perguntas! (#5 é Pegadinha)",
+    "caption": "Desafio extremo de inteligência! 🧠 Quase todo mundo erra a quinta pergunta. Prove que seu raciocínio é fora da curva! Comente seu placar e responda a pergunta bônus! 👇",
+    "hashtags": [
+      "#desafio",
+      "#quiz",
+      "#qi",
+      "#inteligencia",
+      "#curiosidades",
+      "#quizdark",
+      "#conhecimento",
+      "#fatosdesconhecidos",
+      "#bussinessmasterbr"
+    ],
+    "cover_headline": "TESTE DE QI: SÓ 1% ACERTA A #5"
+  }
+}

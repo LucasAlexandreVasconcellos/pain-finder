@@ -1,0 +1,300 @@
+{
+  "script_id": "script_1600_business_giants_02",
+  "slot": "16:00",
+  "theme": "Segredos dos Bilionários & Gigantes Corporativos",
+  "target_duration_seconds": 72.0,
+  "voice_config": {
+    "voice_name": "pt-BR-AntonioNeural",
+    "rate": "+5%",
+    "pitch": "+0Hz"
+  },
+  "hook": {
+    "hook_text": "Você entende de negócios ou apenas consome? 95% das pessoas caem na pegadinha da quinta pergunta!",
+    "subtitles_highlight": "🚨 QUIZ DOS BILIONÁRIOS: CUIDADO COM A #5!",
+    "duration_seconds": 4.0,
+    "sfx": "sfx_whoosh_impact"
+  },
+  "questions": [
+    {
+      "index": 1,
+      "level": "facil",
+      "level_badge": "🟢 NÍVEL FÁCIL",
+      "question_text": "Qual rede social revolucionária foi criada por Mark Zuckerberg em 2004?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Twitter"
+        },
+        {
+          "id": "B",
+          "text": "Facebook"
+        },
+        {
+          "id": "C",
+          "text": "LinkedIn"
+        },
+        {
+          "id": "D",
+          "text": "TikTok"
+        }
+      ],
+      "correct_option": "B",
+      "correct_index": 1,
+      "explanation": "O Facebook foi lançado no dormitório de Harvard por Mark Zuckerberg em 2004!",
+      "is_trap": false,
+      "countdown_seconds": 3.0,
+      "audio_cues": {
+        "intro": null,
+        "countdown": "sfx_tick_tack_3s",
+        "reveal": "sfx_correct_ding"
+      }
+    },
+    {
+      "index": 2,
+      "level": "facil",
+      "level_badge": "🟢 NÍVEL FÁCIL",
+      "question_text": "Qual marca de refrigerantes tem sua fórmula trancada em um cofre milionário?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Pepsi"
+        },
+        {
+          "id": "B",
+          "text": "Guaraná Jesus"
+        },
+        {
+          "id": "C",
+          "text": "Coca-Cola"
+        },
+        {
+          "id": "D",
+          "text": "Red Bull"
+        }
+      ],
+      "correct_option": "C",
+      "correct_index": 2,
+      "explanation": "A fórmula secreta da Coca-Cola está guardada a sete chaves em um cofre em Atlanta!",
+      "is_trap": false,
+      "countdown_seconds": 3.0,
+      "audio_cues": {
+        "intro": null,
+        "countdown": "sfx_tick_tack_3s",
+        "reveal": "sfx_correct_ding"
+      }
+    },
+    {
+      "index": 3,
+      "level": "medio",
+      "level_badge": "🟡 NÍVEL MÉDIO",
+      "question_text": "Qual gigante do e-commerce começou suas atividades vendendo apenas livros online?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Mercado Livre"
+        },
+        {
+          "id": "B",
+          "text": "Amazon"
+        },
+        {
+          "id": "C",
+          "text": "Alibaba"
+        },
+        {
+          "id": "D",
+          "text": "eBay"
+        }
+      ],
+      "correct_option": "B",
+      "correct_index": 1,
+      "explanation": "Jeff Bezos fundou a Amazon em 1994 como uma livraria virtual em sua garagem!",
+      "is_trap": false,
+      "countdown_seconds": 3.0,
+      "audio_cues": {
+        "intro": null,
+        "countdown": "sfx_tick_tack_3s",
+        "reveal": "sfx_correct_ding"
+      }
+    },
+    {
+      "index": 4,
+      "level": "medio",
+      "level_badge": "🟡 NÍVEL MÉDIO",
+      "question_text": "Em qual país europeu está localizada a sede global da multinacional Nestlé?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Alemanha"
+        },
+        {
+          "id": "B",
+          "text": "Suíça"
+        },
+        {
+          "id": "C",
+          "text": "Bélgica"
+        },
+        {
+          "id": "D",
+          "text": "Áustria"
+        }
+      ],
+      "correct_option": "B",
+      "correct_index": 1,
+      "explanation": "A multinacional Nestlé foi fundada por Henri Nestlé em Vevey, na Suíça!",
+      "is_trap": false,
+      "countdown_seconds": 3.0,
+      "audio_cues": {
+        "intro": null,
+        "countdown": "sfx_tick_tack_3s",
+        "reveal": "sfx_correct_ding"
+      }
+    },
+    {
+      "index": 5,
+      "level": "dificil",
+      "level_badge": "🔴 NÍVEL DIFÍCIL - PEGADINHA",
+      "question_text": "Se você comprar 100% das ações preferenciais de uma empresa na bolsa, você assume o controle dela?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Sim com certeza"
+        },
+        {
+          "id": "B",
+          "text": "Depende do CEO"
+        },
+        {
+          "id": "C",
+          "text": "Não porque não dão voto"
+        },
+        {
+          "id": "D",
+          "text": "Apenas se for estatal"
+        }
+      ],
+      "correct_option": "C",
+      "correct_index": 2,
+      "explanation": "Pegadinha de mercado! Ações preferenciais dão prioridade a dividendos, mas não dão voto!",
+      "is_trap": true,
+      "countdown_seconds": 3.0,
+      "audio_cues": {
+        "intro": "sfx_warning_siren",
+        "countdown": "sfx_tick_tack_3s",
+        "reveal": "sfx_correct_ding"
+      }
+    },
+    {
+      "index": 6,
+      "level": "dificil",
+      "level_badge": "🔴 NÍVEL DIFÍCIL",
+      "question_text": "Qual locadora mundial recusou a oferta de comprar a Netflix por 50 milhões de dólares nos anos 2000?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Blockbuster"
+        },
+        {
+          "id": "B",
+          "text": "Sony"
+        },
+        {
+          "id": "C",
+          "text": "Hollywood Video"
+        },
+        {
+          "id": "D",
+          "text": "Yahoo"
+        }
+      ],
+      "correct_option": "A",
+      "correct_index": 0,
+      "explanation": "A diretoria da Blockbuster riu da proposta e hoje a Netflix vale centenas de bilhões!",
+      "is_trap": false,
+      "countdown_seconds": 3.0,
+      "audio_cues": {
+        "intro": null,
+        "countdown": "sfx_tick_tack_3s",
+        "reveal": "sfx_correct_ding"
+      }
+    },
+    {
+      "index": 7,
+      "level": "impossivel",
+      "level_badge": "💀 NÍVEL IMPOSSÍVEL",
+      "question_text": "Além de vender hambúrgueres, qual corporação é uma das maiores donas de imóveis comerciais do mundo?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Subway"
+        },
+        {
+          "id": "B",
+          "text": "McDonald's"
+        },
+        {
+          "id": "C",
+          "text": "Starbucks"
+        },
+        {
+          "id": "D",
+          "text": "Burger King"
+        }
+      ],
+      "correct_option": "B",
+      "correct_index": 1,
+      "explanation": "O McDonald's lucra principalmente comprando terrenos e alugando os prédios para os franqueados!",
+      "is_trap": false,
+      "countdown_seconds": 3.0,
+      "audio_cues": {
+        "intro": null,
+        "countdown": "sfx_tick_tack_3s",
+        "reveal": "sfx_correct_ding"
+      }
+    }
+  ],
+  "micro_curiosity": {
+    "insert_after_question": 3,
+    "title": "💡 CURIOSIDADE RELÂMPAGO",
+    "text": "Você sabia? O famoso logotipo Swoosh da Nike foi criado por uma estudante de design por apenas 35 dólares em 1971!",
+    "duration_seconds": 4.0,
+    "sfx": "sfx_curiosity_bell"
+  },
+  "score_cta": {
+    "text": "Quantas dessas gigantes você acertou? Comente seu resultado!",
+    "duration_seconds": 3.0
+  },
+  "bonus_question": {
+    "index": 8,
+    "badge_label": "🔥 PERGUNTA BÔNUS",
+    "question_text": "Steve Jobs e Steve Wozniak venderam quais dois itens pessoais para fundar a Apple? Deixe sua resposta nos comentários!",
+    "options": [
+      "A) Moto e relógio",
+      "B) Van VW e calculadora HP",
+      "C) Violão e TV",
+      "D) 2 computadores antigos"
+    ],
+    "correct_answer_secret": "Uma van Volkswagen (Jobs) e uma calculadora científica HP-65 (Wozniak)",
+    "reveal_in_video": false,
+    "duration_seconds": 6.0,
+    "pinned_comment": "🏆 DESAFIO BÔNUS: Steve Jobs vendeu sua Kombi/van Volkswagen e Steve Wozniak vendeu sua calculadora HP-65 por US$ 500 para fundar a Apple! Quem acertou?"
+  },
+  "seo": {
+    "title": "Quiz de Negócios: 95% Caem na Pegadinha da Pergunta 5! Você Consegue?",
+    "caption": "Teste seu conhecimento sobre as maiores empresas e impérios do planeta! Preste atenção na pergunta 5... 👀👇 Qual foi o seu placar? Responda a pergunta bônus nos comentários!",
+    "hashtags": [
+      "#negocios",
+      "#quiz",
+      "#curiosidades",
+      "#quizdark",
+      "#bilionarios",
+      "#financas",
+      "#empreendedorismo",
+      "#conhecimento",
+      "#fatosdesconhecidos",
+      "#bussinessmasterbr"
+    ],
+    "cover_headline": "SEGREDOS DOS BILIONÁRIOS: PEGADINHA #5"
+  }
+}
